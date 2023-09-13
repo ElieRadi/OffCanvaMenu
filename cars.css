@@ -1,0 +1,164 @@
+/* here we are aligning the cards next to each other and creatig the hover effect on them and making sure we have the right size for them so they fit next to each other */
+.sales {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  #deals-title {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-decoration: underline;
+    margin-left: 95px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    filter: grayscale(100%);
+    transition: ease-in-out 0.3s all;
+    width: 220px;
+    height: 330px;
+    background-color: grey;
+  }
+  
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    filter: grayscale(0%);
+    transition: all 0.3s ease-in-out;
+    width: 230px;
+    height: 340px;
+  }
+  
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    transition: 0.3s;
+    width: 220px;
+    height: 330px;
+    color: black;
+    filter: grayscale(100%);
+    transition: ease-in-out 0.3s all;
+    background-color: grey;
+  }
+  
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    filter: grayscale(0%);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    width: 230px;
+    height: 340px;
+  }
+  
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    transition: 0.3s;
+    width: 220px;
+    filter: grayscale(100%);
+    transition: ease-in-out 0.3s all;
+    height: 330px;
+    background-color: grey;
+  }
+  
+  .card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    filter: grayscale(0%);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    width: 230px;
+    height: 340px;
+  }
+  
+  .card4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    transition: 0.3s;
+    width: 220px;
+    background-color: grey;
+    color: black;
+    filter: grayscale(100%);
+    transition: ease-in-out 0.3s all;
+    height: 330px;
+  }
+  
+  .card4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    filter: grayscale(0%);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    width: 230px;
+    height: 340px;
+  }
+  
+  .card5 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    transition: 0.3s;
+    width: 220px;
+    filter: grayscale(100%);
+    transition: ease-in-out 0.3s all;
+    height: 330px;
+    background-color: grey;
+  }
+  
+  .card5:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    filter: grayscale(0%);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    width: 230px;
+    height: 340px;
+  }
+  .card6 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    transition: 0.3s;
+    width: 220px;
+    filter: grayscale(100%);
+    transition: ease-in-out 0.3s all;
+    height: 330px;
+    background-color: grey;
+  }
+  
+  .card6:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    filter: grayscale(0%);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    width: 230px;
+    height: 340px;
+  }
+  .card7 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    transition: 0.3s;
+    width: 220px;
+    filter: grayscale(100%);
+    transition: ease-in-out 0.3s all;
+    height: 330px;
+    background-color: grey;
+  }
+  
+  .card7:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    filter: grayscale(0%);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    width: 230px;
+    height: 340px;
+  }
+  
+  .card-info {
+    padding: 2px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .card-info dl {
+    font-weight: bold;
+  }
+  
+  #card-bg {
+    width: 220px;
+  }
+  

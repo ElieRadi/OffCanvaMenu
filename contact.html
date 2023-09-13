@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta
+        name="viewport"
+        content="width=device-width, initial-scale-1.0"
+        charset="utf-8"
+    />
+    <!--all the stylesheets that are linked to this one-->
+    <link rel="stylesheet" type="text/css" href="navbar.css" />
+    <link rel="stylesheet" type="text/css" href="cars.css"/>
+    <link rel="stylesheet" type="text/css" href="form.css"/> 
+    
+    </head>
+    <body>
+        <!--Navbar-->
+        <div class="navbar">
+            <img src="images/bmwicon.jpg" alt="" />
+            <ul id="navbar">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="#aboutme">About me</a>
+              </li>
+              <li>
+                <a href="cars.html">Cars</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact me</a>
+              </li>
+            </ul>
+          </div>
+          <br />
+
+          <!--creating the different cards-->
+          <div class="sales" id="bestdeals">
+            <h1 id="deals-title">Best Deals</h1>
+            <div class="cards">
+              <div class="card1">
+                <img id="card-bg" src="images/2024_BMW_4-series_2.jpg" alt="" />
+                <div class="card-info">
+                  <h4><b>2024 BMW 4-Series</b></h4>
+                  <dl>
+                    <dt>#13 in Luxury Small Cars</dt>
+                    <dd>$48,300 - $71,550 </dd>
+                  </dl>
+                </div>
+              </div>
+              <div class="card2">
+                <img id="card-bg" src="images/2024_BMW_iX_1.jpg" alt="" />
+                <div class="card-info">
+                  <h4><b>2024 BMW IX</b></h4>
+                  <dl>
+                    <dt>#2 in Luxury Electric SUVs</dt>
+                    <dd>$87,100 - $111,500</dd>
+                  </dl>
+                </div>
+              </div>
+              <div class="card3">
+                <img id="card-bg" src="images/2024_BMW_X7_Angular_Front_1.jpg" alt="" />
+                <div class="card-info">
+                  <h4><b>2024 BMW X7</b></h4>
+                  <dl>
+                    <dt>#3 in Luxury Large SUVs</dt>
+                    <dd>$81,900 - $149,400</dd>
+                  </dl>
+                </div>
+              </div>
+              <div class="card4">
+                <img id="card-bg" src="images/2023_bmw_2_series_angularfront.jpg" alt="" />
+                <div class="card-info">
+                  <h4><b>2023 BMW 2-Series</b></h4>
+                  <dl>
+                    <dt>#6 in Luxury Small Cars</dt>
+                    <dd>$37,800 - $50,900</dd>
+                  </dl>
+                </div>
+              </div>
+              <div class="card5">
+                <img id="card-bg" src="images/2023_BMW_3-Series_Angular_Front_1.jpg" alt="" />
+                <div class="card-info">
+                  <h4><b>2023 BMW 3-Series</b></h4>
+                  <dl>
+                    <dt>#6 in Luxury Small Cars</dt>
+                    <dd>$43,800 - $58,400</dd>
+                  </dl>
+                </div>
+              </div>
+              <div class="card6">
+                <img id="card-bg" src="images/2023_bmw_4_series_angularfront.jpg" alt="" />
+                <div class="card-info">
+                  <h4><b>2023 BMW 4-Series</b></h4>
+                  <dl>
+                    <dt>#6 in Luxury Small Cars</dt>
+                    <dd>$43,800 - $58,400 </dd>
+                  </dl>
+                </div>
+              </div>
+              <div class="card7">
+                <img id="card-bg" src="images/2023_bmw_5_series_angularfront.jpg" alt="" />
+                <div class="card-info">
+                  <h4><b>2023 BMW 5-Series</b></h4>
+                  <dl>
+                    <dt>#2 in Luxury Midsize Cars</dt>
+                    <dd>$56,000 - $81,500 </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <!--form for the user to fill in order to contact us-->
+          <div class="form">
+            <div>
+              <h1 id="request-title">Request a service</h1>
+              <p id="request-text">
+                If your interested in buying any of our cars we have many in stock at the moment please reach out!!!s
+              </p>
+            </div>
+            <form id="form" action="">
+              <input placeholder="First Name" type="text" />
+              <input placeholder="Last Name" type="text" />
+              <input placeholder="Phone Number" type="text" />
+              <input placeholder="Email" type="text" />
+              <input placeholder="Location" type="text" />
+              <input placeholder="Color" type="color"/>
+              <input placeholder="Payment method" type="text"/>
+              <input placeholder="message" type="text" />
+              <button id="submit" type="submit" onclick="alert('Request sent!')">
+                Submit
+              </button>
+            </form>
+          </div>
+        </body>
+      </html>
+      
+
+
+
+          <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

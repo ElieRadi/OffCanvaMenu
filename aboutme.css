@@ -1,0 +1,100 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #logo {
+    height: 150px;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  
+  #profile {
+    height: 500px;
+    width: 550px;
+  }
+  
+  .me {
+    width: 1000px;
+  }
+  
+  #introduction-title {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-decoration: underline;
+  }
+  
+  #introduction {
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    padding: 7px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 25px;
+  }
+  
+  .bio{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:flex-start;
+  }
+
+  #bio {
+    height: 1700px;
+    width: 1000px;
+  }
+
+  .bmw-bio{
+    width: 500px;
+  }
+
+  #biography-title {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-decoration: underline;
+  }
+
+  #bio-txt {
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    padding: 7px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 25px;
+    width: 1300px;
+  }
+
+  .vid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .vid {
+    width: 1000px;
+  }
+  
+  #vid {
+    width: 100%;
+    height: auto;
+  }
+  
+  #download-vid {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url("black-download.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #download-vid:hover {
+    background-image: url("download.png");
+    transition: all 0.2s ease-in-out;
+  }

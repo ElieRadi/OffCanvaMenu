@@ -1,0 +1,22 @@
+/* here we made sure the copyright sentence is under the logos and we made sure the logos have same size and are next to each otehr aligning perfectly in the center of the screen */
+.footer{
+    background: grey;
+    padding: 7px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+    
+}
+
+.footer .row{
+    width: 100% auto;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: white;
+    font-size: 0.8em;
+}
+
+ion-icon {
+    font-size: 40px;
+    color: white;
+  }
